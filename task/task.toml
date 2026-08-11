@@ -1,0 +1,16 @@
+version = "1.0"
+
+[metadata]
+author_name = "ZeroDay-TheChosenNeo"
+author_email = "271747999+ZeroDay-TheChosenNeo@users.noreply.github.com"
+difficulty = "hard"
+category = "causal-inference"
+tags = ["inverse-probability", "delayed-outcomes", "adaptive-logging", "experimentation"]
+
+[task]
+name = "measure-notification-fatigue"
+description = "Recover population effects of notification schedules from an adaptively suppressed log."
+
+[artifacts]
+paths = ["/app/notification_report.json"]
+
